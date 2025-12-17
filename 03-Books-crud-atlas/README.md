@@ -1,8 +1,10 @@
 # 03-Books-crud-atlas
 
-Esta carpeta contiene un proyecto de ejemplo para la gestión (CRUD) de libros utilizando Ionic como frontend y MongoDB Atlas como base de datos.
+En este ejercicio haremos una gestión (CRUD) de libros, utilizando Ionic como frontend y MongoDB Atlas como base de datos.
+Los libros y las imagenes se servirán desde el proyecto express creado en 02-cart-express-mongo. Crea otra app, llamada ionic-crud-atlas, que sea la interfez de usaurio.
+Mira las soluciones para ejecutarlas y hacerte una idea de lo que se pide, pero no las uses para ver cómo están hechas.
 
-## Estructura
+## Estructura Solución
 
 - **ionic-crud-atlas/**: Proyecto principal de Ionic para realizar operaciones CRUD sobre una colección de libros. Incluye archivos fuente, imágenes y la configuración necesaria en `package.json`.
 
