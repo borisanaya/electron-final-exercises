@@ -1,0 +1,16 @@
+{
+  "name": "bookshop-ionic",
+  "version": "1.0.0",
+  "description": "CRUD de libros con Ionic Framework",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^39.2.7",
+    "mongodb": "^7.0.0"
+  }
+}

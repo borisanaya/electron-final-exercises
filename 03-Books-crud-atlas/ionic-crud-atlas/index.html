@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>libros</title>
+  <!-- Ionic CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+  
+</head>
+
+<body>
+  <ion-app>
+    <!-- Header -->
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Librería - CRUD</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <!-- Content -->
+    <ion-content class="ion-padding ion-text-center">
+      <div id="wrapper" style="display: flex; flex-wrap: wrap; justify-content: center;">
+        <!--Contenido de los libros-->
+      </div>
+    </ion-content>
+
+    <!-- Footer con botones -->
+    <ion-footer>
+      <ion-toolbar>
+        <div style="display: flex; justify-content: center; width: 100%;">
+          <ion-button id="btnBusquedas">
+            <ion-icon slot="start" name="search-outline"></ion-icon>
+            Búsquedas
+          </ion-button>
+          <ion-button id="btnNuevo">
+            <ion-icon slot="start" name="add-circle-outline"></ion-icon>
+            Nuevo Libro
+          </ion-button>
+          <ion-button id="btnTodos">
+            <ion-icon slot="start" name="home-outline"></ion-icon>
+            Todos
+          </ion-button>
+        </div>
+      </ion-toolbar>
+    </ion-footer>
+
+    <!-- Modal de Búsquedas -->
+    <ion-modal id="modalBusquedas" trigger="btnBusquedas">
+      <ion-header>
+        <ion-toolbar color="primary">
+          <ion-title>Búsquedas</ion-title>
+          <ion-buttons slot="end">
+            <ion-button id="closeBusquedas">Cerrar</ion-button>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <!-- Búsqueda por título -->
+        <ion-item>
+          <ion-label position="floating">Búsqueda por libro</ion-label>
+          <ion-input id="txtBuscar" type="text"></ion-input>
+        </ion-item>
+        <ion-button expand="block" id="btnBuscar" style="margin-top: 10px;">
+          <ion-icon slot="start" name="search"></ion-icon>
+          Buscar Libro
+        </ion-button>
+
+        <!-- Búsqueda por autor -->
+        <ion-item style="margin-top: 30px;">
+          <ion-label position="floating">Búsqueda por Autor</ion-label>
+          <ion-input id="txtBuscarAutor" type="text"></ion-input>
+        </ion-item>
+        <ion-button expand="block" id="btnBuscarAutor" style="margin-top: 10px;">
+          <ion-icon slot="start" name="search"></ion-icon>
+          Buscar Autor
+        </ion-button>
+      </ion-content>
+    </ion-modal>
+
+    <!-- Modal de Nuevo Libro -->
+    <ion-modal id="modalNuevo" trigger="btnNuevo">
+      <ion-header>
+        <ion-toolbar color="primary">
+          <ion-title>Nuevo Libro</ion-title>
+          <ion-buttons slot="end">
+            <ion-button id="closeNuevo">Cerrar</ion-button>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <ion-item>
+          <ion-label position="floating">Título nuevo libro</ion-label>
+          <ion-input id="txtNuevotitulo" type="text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Autor nuevo libro</ion-label>
+          <ion-input id="txtNuevoAutor" type="text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Imagen (nombre archivo)</ion-label>
+          <ion-input id="txtNuevaImagen" type="text"></ion-input>
+        </ion-item>
+
+        <ion-button expand="block" id="btnNuevoLibro" style="margin-top: 20px;">
+          <ion-icon slot="start" name="save-outline"></ion-icon>
+          Guardar Libro
+        </ion-button>
+      </ion-content>
+    </ion-modal>
+
+  </ion-app>
+
+  <!-- Toast para notificaciones -->
+  <ion-toast id="notification" duration="2000"></ion-toast>
+
+  <!-- Ionic JS -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+  <script>require('./app.js')</script>
+</body>
+
+</html>

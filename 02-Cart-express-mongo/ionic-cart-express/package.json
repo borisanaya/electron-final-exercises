@@ -1,0 +1,14 @@
+{
+  "name": "ionic-cart-atlas",
+  "version": "1.0.0",
+  "description": "Carrito de libros con Ionic y backend Express-MongoDB Atlas",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^32.2.10"
+  }
+}
