@@ -6,6 +6,6 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 
 - **01-Cart-ionic/**: Ejercicios y solución para crear un carrito de compras usando Ionic.
 - **02-Cart-express-mongo/**: Ejercicios y solución para implementar un carrito de compras con Express.js y MongoDB.
-- **03-Books-crud-atlas/**: Proyecto CRUD de libros usando Ionic y MongoDB Atlas.
+- **03-Books-crud-atlas/**: Ejercicios y solución para CRUD de libros usando Ionic y MongoDB Atlas.
 
 Cada carpeta incluye proyectos, instrucciones y recursos necesarios para completar los ejercicios. Este repositorio es ideal para documentar tu aprendizaje y compartir tu progreso en GitHub.
