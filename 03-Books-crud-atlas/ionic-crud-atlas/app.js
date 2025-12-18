@@ -2,7 +2,7 @@
 const { MongoClient } = require('mongodb');
 //cadena de conexión
 // Reemplaza 'url' con tu cadena de conexión real proporcionada por atlas
-const url = 'mongodb+srv://user:psswd-atlas@cluster0.byiiytn.mongodb.net/?appName=Cluster0';
+const url = 'Reemplaza 'url' con tu cadena de conexión real proporcionada por atlas';
 const client = new MongoClient(url);
 const dbName = 'libros';
 client.connect();
