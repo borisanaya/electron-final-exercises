@@ -21,7 +21,7 @@ app.get('/test', (req, res) => {
 
 // Conexión a MongoDB Atlas
 // Reemplaza 'url' con tu cadena de conexión real proporcionada por atlas
-const url = 'mongodb+srv://user:psswd-atlas@cluster0.byiiytn.mongodb.net/?appName=Cluster0';
+const url = 'Reemplaza 'url' con tu cadena de conexión real proporcionada por atlas';
 const client = new MongoClient(url);
 const dbName = 'libros';
 let db;
