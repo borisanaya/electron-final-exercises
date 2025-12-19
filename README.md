@@ -12,4 +12,4 @@ Cada carpeta incluye proyectos, instrucciones y recursos necesarios para complet
 
 ---
 
-**Nota:** Contenidos adpatados para el módulo de DI del CFGS DAM. Desarrollado solamente con fines didácticos.
+**Nota:** Contenidos adaptados para el módulo de DI del CFGS DAM. Desarrollado solamente con fines didácticos.
