@@ -5,10 +5,10 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 ## Estructura principal
 
 - **01-Cart-ionic/**: Ejercicios y solución para crear un carrito de compras usando Ionic.
-- **02-Cart-express-mongo/**: Ejercicios y solución para implementar un carrito de compras con Express.js y MongoDB.
+- **02-Cart-express-mongo/**: Ejercicios y solución para implementar un carrito de compras con Express.js y MongoDB. Modificación del ejercicio anterior para adaptarlo a express.
 - **03-Books-crud-atlas/**: Ejercicios y solución para CRUD de libros usando Ionic y MongoDB Atlas.
 
-Cada carpeta incluye proyectos, instrucciones y recursos necesarios para completar los ejercicios.
+Cada carpeta incluye proyectos, instrucciones y recursos necesarios para completar los ejercicios. Ejecuta las soluciones para ver que pide exectamente el ejercicio, pero intneta no copiar el código y hacerlo por ti mismo.
 
 ---
 
