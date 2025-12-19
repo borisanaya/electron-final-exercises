@@ -9,3 +9,7 @@ Este repositorio contiene una serie de ejercicios prácticos para aprender y pra
 - **03-Books-crud-atlas/**: Ejercicios y solución para CRUD de libros usando Ionic y MongoDB Atlas.
 
 Cada carpeta incluye proyectos, instrucciones y recursos necesarios para completar los ejercicios. Este repositorio es ideal para documentar tu aprendizaje y compartir tu progreso en GitHub.
+
+---
+
+**Nota:** Contenidos adpatados para el módulo de DI del CFGS DAM
